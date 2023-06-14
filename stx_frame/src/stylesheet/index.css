@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Abordage";
+  src: url("../assets/fonts/Abordage-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Abordage-Regular.woff") format("woff");
+}
+
+:root {
+  --light: #ffffff;
+  --dark: #121212;
+  --nude: #f9f9eb;
+  --beige: #f5f5dc;
+  --primary: #f72585;
+  --button: #dbff00;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+  overflow-x: hidden;
+  transition: all 0.5s ease;
+}
+body {
+  font-family: "Satoshi", sans-serif;
+}
+.container_1 {
+  padding-top: 2.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+/*form collection*/
+.form_collection {
+  min-width: 100%;
+  padding: 10px;
+}
+.form_collection div {
+  margin-bottom: 10px;
+  min-width: 100%;
+}
+.f_type_1 {
+  width: 100%;
+  padding: 1.2rem;
+  font-family: "Satoshi", sans-serif;
+  background: var(--light);
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid var(--dark);
+  border-radius: 50px;
+}
+.f_type_1:focus {
+  outline: 1px solid var(--dark);
+}
+.f_type_1::-webkit-input-placeholder {
+  /* Edge */
+  font-size: 16px;
+  color: var(--dark);
+  font-family: "Satoshi", sans-serif;
+  font-weight: bold;
+}
+
+.f_type_1:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--dark);
+  font-family: "Satoshi", sans-serif;
+  font-weight: bold;
+}
+
+.f_type_1::placeholder {
+  color: var(--dark);
+  font-family: "Satoshi", sans-serif;
+  font-weight: bold;
+}
+
+/*Buttons*/
+.button_1 {
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  height: 60px;
+  background: var(--dark);
+  border-radius: 50px;
+  outline: none;
+  font-family: "Chillax", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cw_200 {
+  max-width: 200px !important;
+}
+.button_over {
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  font-size: 18px;
+  height: 100%;
+  border-radius: 50px;
+  border: 3px solid var(--dark);
+  outline: none;
+  font-family: "Chillax", sans-serif;
+  align-items: center;
+  background: var(--button);
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  transition: all.3s ease-in-out;
+  right: 0;
+}
+
+.button_1:hover .button_over {
+  top: -10px;
+  transition: all 0.3s ease-in-out;
+  left: -10px;
+}
+
+.space_top_5 {
+  margin-top: 5rem;
+}
+
+/* Fonts */
+.chillax{
+  font-family: "Chillax";
+}
