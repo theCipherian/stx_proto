@@ -434,26 +434,26 @@
 .set_2 div {
   line-height: 30px;
 }
-.dot{
-  width:5px;
-  height:5px;
+.dot {
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   background-color: var(--dark);
 }
-.sp{
-  margin-top:10px;
-  margin-bottom:1rem;
-  display:flex;
+.sp {
+  margin-top: 10px;
+  margin-bottom: 1rem;
+  display: flex;
   align-items: center;
   font-weight: bold;
-  min-width:100%;
+  min-width: 100%;
   word-wrap: none;
-  color:#384100;
+  color: #384100;
 }
 
-.sp p:nth-child(2){
-  margin-left:10px;
+.sp p:nth-child(2) {
+  margin-left: 10px;
 }
-.sp p:nth-child(3){
-  margin-left:10px;
+.sp p:nth-child(3) {
+  margin-left: 10px;
 }
